@@ -1,0 +1,75 @@
+/* Import modern Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Styles for the page body */
+body {
+  background-color: #cdcdcdb9; /* Light gray background color */
+  text-align: center; /* Center all text content */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font throughout */
+  padding: 40px 20px; /* Add space around content */
+}
+
+/* Styles for the profile card container */
+.profile-card {
+  background-color: white; /* White background to make card stand out */
+  border: 2px solid #1a4d5c; /* Teal border around the card */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 40px; /* Space inside the card */
+  max-width: 500px; /* Limit card width for better readability */
+  margin: 0 auto; /* Center the card horizontally on the page */
+}
+
+/* Styles for profile image */
+img {
+  max-width: 100%; /* Scale image to fit within card */
+  width: 250px; /* Set a fixed width for square dimensions */
+  height: 250px; /* Set height equal to width for perfect circle */
+  object-fit: cover; /* Crop image to fill the square */
+  border-radius: 50%; /* Make image circular */
+  margin-bottom: 20px; /* Space between image and heading */
+}
+
+/* Styles for main heading (h1) */
+h1 {
+  font-size: 48px; /* Large, prominent text size */
+  color: #1a4d5c; /* Teal color matching the border */
+  margin-top: 0; /* Remove default top margin */
+}
+
+/* Styles for subheading (h2) */
+h2 {
+  font-size: 36px; /* Slightly smaller than h1 */
+  color: #2d6a7b; /* Slightly lighter teal for visual hierarchy */
+  margin: 10px 0; /* Add space above and below */
+}
+
+/* Styles for paragraph text (p) */
+p {
+  font-size: 18px; /* Readable text size */
+  line-height: 1.8; /* Extra spacing between lines for readability */
+  color: #333; /* Dark gray text for good contrast */
+}
+
+/* Styles for unordered list */
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin-top: 20px; /* Space above the list */
+}
+
+/* Styles for list items */
+li {
+  margin: 12px 0; /* Add spacing between list items */
+  font-size: 16px; /* Readable text size for links */
+}
+
+/* Styles for links in the list */
+a {
+  color: #1a4d5c; /* Use teal color to match card theme */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Hover effect for links */
+a:hover {
+  text-decoration: underline; /* Add underline on hover for clarity */
+}
